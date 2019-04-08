@@ -1,14 +1,40 @@
 # olympic_sports_tools
 
+This repo contains two scripts that help parsing the Olympic Sports dataset, from the following publication:
+```
+Juan Carlos Niebles, Chih-Wei Chen and Li Fei-Fei, "Modeling Temporal Structure of Decomposable Motion Segments for Activity Classification", ECCV 2010
+
+Dataset's paper : http://vision.stanford.edu/documents/NieblesChenFei-Fei_ECCV2010.pdf
+Dataset website : http://vision.stanford.edu/Datasets/OlympicSports/
+```
+The scripts are the following:
+
+
+1. parse_attributes.py (used to save a numpy array with some class-related attributes)
+
+2. convert_Olympic.py (used to convert the videos from .seq to .avi format)
+
+----------------------------------
+# Parsing class-related attributes
+The class-related attributes are taken from the following publication:
+```
+J. Liu, B. Kuipers, S. Savarese, "Recognizing Human Actions by Attributes", CVPR 2011
 Publication link : http://cvgl.stanford.edu/papers/cvpr11_liu_a.pdf
-
 Technical report : http://www.cs.ucf.edu/%7Eliujg/papers/cvpr11_liu_a_tech_report.pdf
+```
 
-The unprocessed attributes are copied from Table 3 in the paper's technical report, and pasted in this file : 'Olympic_Attributes.txt'
+The unprocessed attributes are copied from Table 3 in the paper's technical report, and pasted in this file :
+```
+Olympic_Attributes.txt
+```
 
-We have 16 classes of Olympic Sports, and 40 attributes.
+We have 16 classes of the Olympic Sports dataset, and 40 attributes.
 
-Then, we execute parse_attributes.py, and save the following 3 variables in the 'attributes.npz' file:
+Then, we run
+```
+python parse_attributes.py
+```
+and save the following 3 variables in the 'attributes.npz' file:
 
 *attributes*
 The attributes are stored in a numpy array of size 16x40, containing ones and zeros.
@@ -22,3 +48,12 @@ List of the attribute names
 
 *class_names*
 List of the class names
+
+----------------------------------
+
+To convert the videos of the dataset from .seq file format to .avi, we execute:
+```
+python convert_Olympic.py
+```
+
+This script will use
