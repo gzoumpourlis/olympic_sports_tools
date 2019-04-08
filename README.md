@@ -74,3 +74,8 @@ If you want to create this on your own for a modified version of the dataset, yo
 ls /path/to/your/dataset/*/*.avi > video_Olympic.list
 ```
 Then using a text editor you can simply find and replace the substring of the exported directories, so that you only keep the class names and the video names in your final file (as in the already saved file).
+
+----------------------------------
+
+Credits go to @psycharo, for his useful gist to read .seq files, that is used in this repo.
+https://gist.github.com/psycharo/7e6422a491d93e1e3219/
