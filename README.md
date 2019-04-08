@@ -55,7 +55,7 @@ List of the class names
 You can see the correspondences in the saved Attributes_Olympic.png image.
 
 <p>
-  <img src="https://github.com/gzoumpourlis/olympic_sports_tools/raw/master/Attributes_Olympic.png" width="640" title="Class names and class-related attributes">
+  <img src="https://github.com/gzoumpourlis/olympic_sports_tools/raw/master/Attributes_Olympic.png" width="800" title="Class names and class-related attributes">
 </p>
 
 
