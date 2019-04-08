@@ -5,6 +5,7 @@ This repo contains two scripts that help parsing the Olympic Sports dataset, fro
 Juan Carlos Niebles, Chih-Wei Chen and Li Fei-Fei, "Modeling Temporal Structure of Decomposable Motion Segments for Activity Classification", ECCV 2010
 
 Dataset's paper : http://vision.stanford.edu/documents/NieblesChenFei-Fei_ECCV2010.pdf
+
 Dataset website : http://vision.stanford.edu/Datasets/OlympicSports/
 
 The scripts are the following:
@@ -20,7 +21,9 @@ The scripts are the following:
 The class-related attributes are taken from the following publication:
 
 J. Liu, B. Kuipers, S. Savarese, "Recognizing Human Actions by Attributes", CVPR 2011
+
 Publication link : http://cvgl.stanford.edu/papers/cvpr11_liu_a.pdf
+
 Technical report : http://www.cs.ucf.edu/%7Eliujg/papers/cvpr11_liu_a_tech_report.pdf
 
 The unprocessed attributes are copied from Table 3 in the paper's technical report, and pasted in this file :
