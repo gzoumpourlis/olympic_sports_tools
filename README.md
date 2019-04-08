@@ -12,7 +12,9 @@ Then, we execute parse_attributes.py, and save the following 3 variables in the 
 
 *attributes*
 The attributes are stored in a numpy array of size 16x40, containing ones and zeros.
+
 Values of 1 (integer) in the cell (i,j), mean that the i-th class has the j-th attribute.
+
 Values of 0 (integer) mean that the i-th class does not have the j-th attribute.
 
 *attribute_names*
