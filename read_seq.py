@@ -1,3 +1,6 @@
+# This file was taken from the following gist, made by @psycharo :
+# https://gist.github.com/psycharo/7e6422a491d93e1e3219/
+
 import struct
 import cv2
 
